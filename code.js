@@ -44,8 +44,6 @@ $(document).ready(function () {
         }
     );
 
-    $(".bmiButton").click(calculateBmi);
-
     function calculateBmi()
     {
         var height = parseFloat($("#height").val());
